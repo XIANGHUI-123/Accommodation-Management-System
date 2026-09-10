@@ -268,13 +268,7 @@ int main()
     loadStudents();
     loadOwners();
 
-    /*
-        properties.txt is generated from owners.txt.
 
-        This means the property listing follows the actual
-        owner information provided in owners.txt.
-    */
-    generatePropertiesFromOwners();
     loadProperties();
 
     loadShortlists();
@@ -3698,4 +3692,3 @@ int findAppointment(int appointmentid)
 
     return -1;
 }
-
